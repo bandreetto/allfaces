@@ -21,31 +21,24 @@ const AboutPage = (props, context) => {
         `}
       </style>
       <div className="content-grid">
-        <h1 style={{ color: colorPrimary }}>About</h1>
+        <h1 style={{ color: colorPrimary }}>Quem somos?</h1>
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I like <span className="highlight">JavaScript</span> and
-              everything web.
+              Somos uma banda multi-estilos, tocamos em eventos como churrascos, festas e afins.
+            </p>
+            <h4>Integrantes:</h4>
+            <ul>
+              <li>Voz <span role='img' aria-label='microfone'>🎤</span> Lorena</li>
+              <li>Guitarra <span role='img' aria-label='guitarra'>🎸</span> Padu</li>
+              <li>Baixo <span role='img' aria-label='baixo'>🎸</span> Bruno</li>
+              <li>Bateria <span role='img' aria-label='bateria'>🥁</span> Levi</li>
+            </ul>
+            <p>
+              Nosso canal no <span className="highlight">Youtube</span>: {'<link-pro-canal>'}
             </p>
             <p>
-              When my dev senses kick-in I build presumably{' '}
-              <span className="highlight"> awesome stuff</span>. I stay close to
-              the community and try to keep tabs with the pace at which the web
-              is evolving. I also like to{' '}
-              <span className="highlight">blog</span> what I learn.
-            </p>
-            <p>
-              I built this site <span className="highlight">from scratch</span>.
-              By scratch, I mean <i>absolutely from scratch</i>{' '}
-              <span className="highlight">
-                without any UI library/framework
-              </span>{' '}
-              (except React though) and had so much fun along the way.
-            </p>
-            <p>
-              React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and
-              AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS.
+              Nossa página no <span className="highlight">Facebook</span>: {'<link-pro-face>'}
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /

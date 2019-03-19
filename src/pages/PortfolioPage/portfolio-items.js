@@ -1,22 +1,38 @@
 import React from 'react';
 
 export default [{
-  name: 'typy',
+  name: 'iternational-pop-rock',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Typy
+        Pop Rock Internacional
       </div>
-      <div className='portfolio-item__desc'>
-        JavaScript type checking library with a sweeter syntax
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+      <div className='portfolio-item__desc' style={{ marginBottom: "16px", top: 0 }}>
+        <ul>
+          <li>Back to black</li>
+          <li>Beautiful</li>
+          <li>Havana</li>
+          <li>Have you ever seen the rain</li>
+          <li>Hit the road Jack</li>
+          <li>I’m yours</li>
+          <li>It Must have a been love</li>
+          <li>Just the way you are</li>
+          <li>La Bamba / Twist and Shout</li>
+          <li>Love of my life</li>
+          <li>Lucky</li>
+          <li>Miss Celies Blues</li>
+          <li>New Rules</li>
+          <li>One</li>
+          <li>Perfect</li>
+          <li>Proud Mary</li>
+          <li>Rehab</li>
+          <li>Set Fire to the rain</li>
+          <li>Shallow</li>
+          <li>Something a got a hold on me</li>
+          <li>Stand by Me</li>
+          <li>This Masquerade</li>
+          <li>What's up</li>
+        </ul>
       </div>
     </div>
   )
@@ -25,97 +41,116 @@ export default [{
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Dev Landing Page
+        Pop Rock Nacional
       </div>
-      <div className='portfolio-item__desc'>
-        Minimal landing page for developers
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-html5"></i>
-        <i className="fab fa-css3"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/create-your-developer-landing-page-with-github-pages---42jk">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/dev-landing-page">More</a>
-      </div>
-    </div>
-  )
-}, {
-  name: 'react-redux-boilerplate',
-  render: (
-    <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-        React-Redux Boilerplate
-      </div>
-      <div className='portfolio-item__desc'>
-        Boilerplate code setup with community best practices
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-react"></i>
-        <i className="fab fa-js"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/react-redux-boilerplate-with-best-practices--2pp5">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/react-redux-boilerplate">More</a>
+      <div className='portfolio-item__desc' style={{ marginBottom: "16px", top: 0, height: '90%' }}>
+        <ul>
+          <li>Minha Alma</li>
+          <li>Descobridor dos sete mares</li>
+          <li>Fulgás</li>
+          <li>Lágrimas e chuva</li>
+          <li>Malandragem</li>
+          <li>O Sol</li>
+          <li>Primeiros erros</li>
+          <li>Tempo Perdido</li>
+          <li>Vou deixar</li>
+          <li>Whisky a Go Go</li>
+        </ul>
       </div>
     </div>
   )
 }, {
-  name: 'npm-module-boilerplate',
+  name: 'mpb-bossa-nova',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        NPM Module Boilerplate
+        MPB / Bossa Nova
       </div>
-      <div className='portfolio-item__desc'>
-         Boilerplate plate code to create and publish an NPM package
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/publish-your-own-npm-package---5b71">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/npm-module-boilerplate">More</a>
+      <div className='portfolio-item__desc' style={{ marginBottom: "16px", top: 0, height: '90%' }}>
+        <ul>
+          <li>Garota de Ipanema</li>
+          <li>Wave</li>
+        </ul>
       </div>
     </div>
   )
 }, {
-  name: 'axios-retry-interceptor',
+  name: 'samba-pagode',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Axios Retry Interceptor
+        Samba / Pagode
       </div>
-      <div className='portfolio-item__desc'>
-        Configurable Axios Interceptor to retry failed http calls.
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/axios-retry-interceptor">More</a>
+      <div className='portfolio-item__desc' style={{ marginBottom: "16px", top: 0, height: '90%' }}>
+        <ul>
+          <li>Conselho</li>
+          <li>Eu e você sempre</li>
+          <li>Insensato destino</li>
+          <li>Não deixe o samba morrer</li>
+          <li>Samba do Ernesto</li>
+          <li>Tiro ao Álvaro</li>
+          <li>Trem das onze</li>
+          <li>Verdade</li>
+        </ul>
       </div>
     </div>
   )
 }, {
-  name: 'browser-or-node',
+  name: 'forronejo',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Browser or Node
+        Sertanejo Universitário
       </div>
-      <div className='portfolio-item__desc'>
-        Javascript library to check the runtime JS env
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/browser-or-node">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/browser-or-node">More</a>
+      <div className='portfolio-item__desc' style={{ marginBottom: "16px", top: 0, height: '90%' }}>
+        <ul>
+          <li>Atrasadinha</li>
+          <li>Borboletas</li>
+          <li>Ciumeira</li>
+          <li>Domingo de manhã</li>
+          <li>Dona Maria</li>
+          <li>Eu sei de cor</li>
+          <li>Jennifer</li>
+          <li>Loca</li>
+          <li>Notificação preferida</li>
+          <li>Romance com safadeza</li>
+          <li>Só pra castigar</li>
+          <li>Sofazinho de 2 lugares</li>
+          <li>Tem que ser você</li>
+          <li>Você partiu meu coração</li>
+        </ul>
       </div>
     </div>
   )
-}]
+}, {
+  name: 'xote',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Xote
+      </div>
+      <div className='portfolio-item__desc' style={{ marginBottom: "16px", top: 0, height: '90%' }}>
+        <ul>
+          <li>Esperando na janela</li>
+          <li>Nosso xote</li>
+        </ul>
+      </div>
+    </div>
+  )
+}, {
+  name: 'autoral',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Autoral
+      </div>
+      <div className='portfolio-item__desc' style={{ marginBottom: "16px", top: 0, height: '90%' }}>
+        <ul>
+          <li>Minha Praia</li>
+          <li>Sem Você</li>
+        </ul>
+      </div>
+    </div>
+  )
+}
+]
